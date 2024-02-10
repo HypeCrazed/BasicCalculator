@@ -1,4 +1,4 @@
-﻿Console.ForegroundColor = ConsoleColor.Blue;
+Console.ForegroundColor = ConsoleColor.Blue;
 Console.Title = "Basic Calculator by HypeCrazed";
 
 Console.WriteLine("Enter the first number...");
@@ -43,3 +43,5 @@ if (method == "multiply")
     int result = num1 * num2;
     Console.WriteLine(result);
 }
+
+Console.ReadKey();
